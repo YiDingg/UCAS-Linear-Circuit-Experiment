@@ -1,0 +1,4 @@
+RIGOL
+mA
+Schottky
+Zener
