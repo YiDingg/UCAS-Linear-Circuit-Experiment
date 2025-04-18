@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}实验目的}{1}{section.1}%
+\contentsline {section}{\numberline {2}实验仪器}{1}{section.2}%
+\contentsline {section}{\numberline {3}实验内容及实验结果}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}依据电路图焊接功放电路}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}观察振荡波形并进行消振}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}测量最大输出摆幅、功率和效率}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}扫频法测中频增益和截止频率}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}测量等效输出电阻}{8}{subsection.3.5}%
+\contentsline {section}{\numberline {4}思考题}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}4.3 \ \ 输出阻抗测量精度较低，如何提高？}{10}{subsection.4.1}%
+\contentsline {section}{附录 A\hspace *{6pt} 预习报告}{11}{subsection.4.1}%
+\contentsline {section}{附录 B\hspace *{6pt} 原始数据记录表}{11}{figure.caption.19}%
+\contentsline {section}{附录 C \hspace *{6pt} Matlab Codes}{11}{figure.caption.20}%

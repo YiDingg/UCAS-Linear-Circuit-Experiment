@@ -1,0 +1,407 @@
+% 若编译失败，且生成 .synctex(busy) 辅助文件，可能有两个原因：
+% 1. 需要插入的图片不存在：Ctrl + F 搜索 'figure' 将这些代码注释/删除掉即可
+% 2. 路径/文件名含中文或空格：更改路径/文件名即可
+
+% --------------------- 文章宏包及相关设置 --------------------- %
+% >> ------------------ 文章宏包及相关设置 ------------------ << %
+% 设定文章类型与编码格式
+\documentclass[UTF8]{article}		
+\input{../.config/config_for_LinearCircuitExperiment.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 仅需修改页眉、实验名称、实验日期
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%% 1. 修改页眉内容 %%%%%%%%%%%%%%%%%%
+\rhead{LCE-03 功率放大器 (2025.04.18, 丁毅)}
+
+% 开始编辑文章
+\begin{document}
+\begin{center}\large
+    \vspace*{-0.8cm}
+    \noindent{\huge\bfseries《\ \ 线\ \ 性\ \ 电\ \ 路\ \ 实\ \ 验\ \ \ 》\ \ 实\ \ 验\ \ 报\ \ 告 }
+    \\\vspace{0.1cm}
+    \noindent{
+    {\bfseries 
+%
+%%%%%%%%%%%%%%%%%% 2. 修改实验名称 %%%%%%%%%%%%%%%%%%
+    实验名称：\uline{\hspace{1.8cm} 功率放大器 \hspace{1.8cm}}
+%
+    }\hspace{0.4cm}
+    指导教师：\uline{\hspace{0.8cm}王东雷\ \ \ \  \ df4dac@sina.com     \hspace{0.8cm}}
+    }
+    \\\vspace{0.1cm}
+    \noindent
+    {
+    姓名：\uline{\,\,\,丁毅\,\,\,}\hspace{0.2cm}
+    学号：\uline{\,\,\,{ 2023K8009908031}\,\,\,}\hspace{0.2cm}
+    班级/专业：\uline{\,\,\,{2308/电子信息}\,\,\,}\hspace{0.2cm}
+    分组序号：\uline{\,\,\,{2-06}\,\,\,}
+    }
+    \\\vspace{0.1cm}
+    \noindent{
+%
+%%%%%%%%%%%%%%%%%% 3. 修改实验日期 %%%%%%%%%%%%%%%%%%
+    实验日期：\uline{\,\,{2025.04.18}\,\,}\hspace{0.2cm}
+%
+    实验地点：\uline{\,\,\,教学楼{ 607}\,\,\,}\hspace{0.2cm}
+    是否调课/补课：\uline{\hspace{0.26cm}否 \hspace{0.26cm}}\hspace{0.2cm}
+    成绩：\uline{\hspace{2cm}}
+    }
+\end{center}
+\vspace{-0.4cm}
+\noindent\rule{\textwidth}{0.075em}   % 分割线
+\vspace{-1.0cm}
+
+% 生成目录
+\setcounter{tocdepth}{3}  % 目录深度为 2（不显示 subsubsection）
+\noindent\tableofcontents\thispagestyle{fancy}   % 显示页码、页眉等
+
+% ------------------------ 文章信息区 ------------------------ %
+% ------------------------ 文章信息区 ------------------------ %
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 下面是正文内容 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{实验目的}
+
+\begin{enumerate}
+    \item 对功放及散热片有感性认识，加深对功率放大电路的理解；
+    \item 理解功放指标及测量方法；
+    \item 初步建立散热和热阻的概念；
+    \item 了解电容类别、指标及测试方法；
+    \item D 类功放波形及指标测试 (选做)。
+    \end{enumerate}
+    
+
+\section{实验仪器}
+
+\begin{enumerate}
+    \item 数字万用表： Unit UT61E (C190241394)
+    \item 数字示波器： RIGOL 200MSO2202A (DS2F192200361)
+    \item 信号发生器： GWINSTEK AFG-22225 (GER910370)
+    \item 数字直流电源： GWINSTEK GPD-3303S (GES813705)
+    \item 其它：LM1875 功放芯片、散热片、导线、电阻、电容等
+\end{enumerate}
+
+
+\section{实验内容及实验结果}
+
+\subsection{依据电路图焊接功放电路}
+
+应注意 LM1875 芯片需要先机械安装再进行焊接，否则芯片难与散热片紧密贴合，会导致散热不良。电路原理图如图 \ref{fig: LM1875 线性功放原理图} 所示，其中 $C_3$, $R_4$, $R_5$ 为 Zobel 网络，用于消振，先不焊接。
+
+\begin{figure}[H]\centering
+    \includegraphics[width=0.9\columnwidth]{LCE-03-功率放大器/assets/功率放大器原理图.pdf}
+    \caption{LM1875 线性功放原理图}
+    \label{fig: LM1875 线性功放原理图}
+\end{figure}
+
+\begin{figure}[H]\centering
+    \includegraphics[width=0.9\columnwidth]{LCE-03-功率放大器/assets/焊接实物图.png}
+    \caption{LM1875 线性功放焊接实物图}
+\end{figure}
+
+在接入信号之前，我们需要先进行空载测试，以确认电路没有问题。功放先不接负载，空载测试是否有问题。在连接电源线的时候，多股导线应当铰接在一起，以减少电感和辐射。电源设置为串联模式，两通道电流均设置为 0.1 A 。开启电源，观察电流在 68 mA 附近，电源未进入 Constant Current (恒流) 模式，功放正常工作。
+
+
+\subsection{观察振荡波形并进行消振}
+
+
+接入信号源，电源电流设置限流 1.5 A ，在输出端观察信号，发现输出波形震荡较为严重，如下图所示：
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/观察输出是否振荡, 无 zobel (input 500mVpp 1kHz).png}
+    \caption{Amplifier I/O curve (无 Zobel): 有效输入 (CH1, blue), 输出电压 (CH2, red), 观察输出振荡情况}
+\end{figure}
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/观察输出是否振荡, 有 zobel (input 500mVpp 1kHz).png}
+    \caption{Amplifier I/O curve (有 Zobel): 有效输入 (CH1, blue), 输出电压 (CH2, red), 观察输出消振情况}
+\end{figure}
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/观察输出是否振荡, 有 zobel (错位显示) (input 500mVpp 1kHz).png}
+    \caption{Amplifier I/O curve (有 Zobel): 有效输入 (CH1, blue), 输出电压 (CH2, red), 观察输出消振情况 (错位显示)}
+\end{figure}
+
+
+\newpage
+\subsection{测量最大输出摆幅、功率和效率}
+
+
+我们分别测量了负载为 30 $\Omega$ 和 3.75 $\Omega$ 时的最大输出摆幅、功率和效率。输入信号频率固定为 1 kHz 正弦波，调整输入信号峰峰值以测量最大输出摆幅，结果如下：
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/30Ohm输出测试 最大输出摆幅 (测量输入).png}
+    \caption{Amplifier I/O curve (30 $\Omega$ load): 有效输入 (CH1, blue), 输出电压 (CH2, red), 测量最大输出摆幅}
+\end{figure}
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/3R5输出测试 最大输出摆幅 (测量输出).png}
+    \caption{Amplifier I/O curve (3.75 $\Omega$ load): 有效输入 (CH1, blue), 输出电压 (CH2, red), 测量最大输出摆幅}
+\end{figure}
+
+在每种负载下得到最大输出摆幅后，将输入信号峰峰值降低 5mV，以保证输出在摆幅范围内。然后用万用表测量输入电流和输出电流，计算功率和效率，结果总结在下表：
+
+\begin{table}[H]\centering
+    %\renewcommand{\arraystretch}{1.5} % 调整行间距
+    %\setlength{\tabcolsep}{1.5mm} % 调整列间距
+    \caption{功率放大器数据测试表}
+    \label{功率放大器数据测试表}
+\begin{tabular}{cccccccccc}\toprule
+    负载 $R_{load}$  & 最大输出摆幅 $(V_{out,amp})_{max}$ & 电源 CH1 电压电流 $V_1 @ I_1$ & 电源 CH2 电压电流 $V_2 @ I_2$ \\
+    \midrule
+    30 $\Omega$ & 27.9 V & 14.995 V @ 0.158 A & 14.999 V @ 0.154 A  \\
+    3.75 $\Omega$ & 24.7 V & 14.994 V @ 1.043 A & 14.999 V @ 1.047 A \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]\centering
+    %\renewcommand{\arraystretch}{1.5} % 调整行间距为 1.5 倍
+    %\setlength{\tabcolsep}{1.5mm} % 调整列间距
+    \caption{功率放大器输出摆幅、功率和效率测试}
+    \label{功率放大器输出摆幅、功率和效率测试}
+\resizebox{\linewidth}{!}{   % 设置宽度为 \linewidth 等比例缩放
+\begin{tabular}{cccccccccc}\toprule
+    负载 $R_{load}$ & 最大输出幅度 $(V_{out,amp})_{max}$ & 输出功率 $P_{out,av}$ & 电源功率 $P_{DC,av}$ & 实际效率 $\eta = \frac{P_{out,av}}{P_{DC,av}}$ & 理论效率 $\eta = \frac{\pi V_{out,amp}}{4 V_{CC}}$  \\
+    \midrule
+    30 $\Omega$ & 13.995 V & 3.2434 W & 4.6791 W & 69.32\,\% & 73.04\,\% \\
+    3.75 $\Omega$ & 12.350 V & 20.3363 W & 31.3427 W & 64.88\,\% & 64.66\,\% \\
+    \bottomrule
+\end{tabular}}
+\end{table}
+
+
+\subsection{扫频法测中频增益和截止频率}
+
+保持负载为 3.75 $\Omega$，开始之前，将输入幅值减小到原来的一半，以保证输出在摆幅范围内。然后设置扫描周期为 600ms ，设定起止频率为 100 Hz 至 10 MHz ，进行扫频。获得的扫频波形如下：
+
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/3R5扫频测试 (输入减半 370 mVpp).png}
+    \caption{Amplifier I/O curve (3.75 $\Omega$ load, input 370mVpp): 有效输入 (CH1, blue), 输出电压 (CH2, red), 全局扫频波形}
+\end{figure}
+
+分别在中频点、截止频率点将波形展开，然后重新扫频以在此区间获得更高的采样率，得到结果如下：
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/3R5扫频测试 中频展开.png}
+    \caption{Amplifier I/O curve (3.75 $\Omega$ load, input 370mVpp): 有效输入 (CH1, blue), 输出电压 (CH2, red), 中频点展开}
+\end{figure}
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/实验照片/3R5扫频测试 3dB 展开.png}
+    \caption{Amplifier I/O curve (3.75 $\Omega$ load, input 370mVpp): 有效输入 (CH1, blue), 输出电压 (CH2, red), 截止频率点展开}
+\end{figure}
+
+由上图可知，中频增益和截止频率分别为：
+\begin{gather}
+A_v = \frac{12.5 \ \mathrm{V}}{370 \ \mathrm{mV}} = 33.7838,\quad 
+f_c = 108.2 \ \mathrm{kHz}
+\end{gather}
+
+\subsection{测量等效输出电阻}
+
+利用实验二中使用的测量方法，对功放电路输出电阻进行测量，数据与计算结果如下：
+\begin{gather}
+    R_{out} = \left(\frac{A_0}{A} - 1\right)R_L 
+\end{gather}
+
+
+\begin{table}[H]\centering
+    %\renewcommand{\arraystretch}{1.5} % 调整行间距为 1.5 倍
+    %\setlength{\tabcolsep}{1.5mm} % 调整列间距
+    \caption{等效输出电阻测量数据与计算结果}
+    \label{等效输出电阻测量数据与计算结果}
+\resizebox{\linewidth}{!}{   % 设置宽度为 \linewidth 等比例缩放
+\begin{tabular}{cccccccccc}\toprule
+    (空载) 输出电压有效值$(V_{out,RMS})_{R_L = \infty}$ & (负载 3.75 $\Omega$) 输出电压有效值 $(V_{out,RMS})_{R_L = 3.5\Omega}$ & 输出电阻 $R_{out}$  \\
+    \midrule
+    4.403 V & 4.399 V & 3.410 $\mathrm{m}\Omega$  \\
+    \bottomrule
+\end{tabular}
+}\end{table}
+
+
+
+\section{思考题}
+
+\subsection*{4.1 \ \ 低频功放失真度一般要求 1 \%以下，失真度如何测量？}
+
+用示波器测量输出信号的波形，对波形进行傅里叶变换后即可计算出（总）谐波失真度。具体而言，设输出信号中的基波频率为 $f_1$, 基波幅度为 $A_{f_1}$, 其余谐波频率为 $f_2, f_3, \cdots, f_n$, 幅度分别为 $A_{f_2}, A_{f_3}, \cdots A_{f_n}$, 则各谐波对应的失真度（称为谐波失真度）和总谐波失真度 (THD) 定义为：
+\begin{gather}
+\label{eq: HD}
+HD_{f_k} = \frac{A_{f_k}}{A_{f_1}} \times 100\% ,\quad k=2,3,\cdots,n
+,\quad 
+THD = \sqrt{\sum_{k=2}^{\infty} HD_{f_k}^2} 
+= \frac{\sqrt{A_{f_2}^2 + A_{f_3}^2 + \cdots + A_{f_n}^2}}{A_{f_1}} \times 100\%
+\end{gather}
+
+下面，我们就来实际测量并计算谐波失真。调整输入信号为 370 mVpp @ 3kHz 以保证输出在摆幅范围内，将示波器测得的波形数据导出，在 MATLAB 中进行数据处理 (MATLAB 源码见附录)，可得如下结果：
+
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/输出波形及其 FT 结果.pdf}
+    \caption{谐波失真度测量：输出波形数据及其 FFT (fast Fourier transformer) 结果}
+\end{figure}
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/谐波失真图 (线性横坐标).pdf}
+    \caption{谐波失真度测量：计算各个谐波的失真度 (线性横坐标)}
+\end{figure}
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/谐波失真图 (对数横坐标).pdf}
+    \caption{谐波失真度测量：计算各个谐波的失真度 (对数横坐标)}
+\end{figure}
+
+依据所得数据，计算出频谱分辨率、各谐波失真度和总谐波失真度如下：
+\begin{gather}
+\text{
+Sampling time: 14 ms, \quad  
+sampling rate: 100 MSa/s (受存储深度限制),\quad 
+spectral resolution: 71.4286 Hz
+}
+\end{gather}
+\vspace*{-7mm}
+\begin{table}[H]\centering
+    %\renewcommand{\arraystretch}{1.5} % 调整行间距为 1.5 倍
+    %\setlength{\tabcolsep}{1.5mm} % 调整列间距
+    \caption{谐波失真度 (HD) 与总谐波失真度 (THD, total harmonic distortion)}
+    \label{谐波失真度 (HD) 与总谐波失真度 (THD, total harmonic distortion)}
+\resizebox{\linewidth}{!}{   % 设置宽度为 \linewidth 等比例缩放
+\begin{tabular}{cccccccccc}\toprule
+    谐波失真度 (HD)  & 0.501\,\% @ 6 kHz & 0.169\,\% @ 9 kHz & 0.109\,\% @ 12 kHz & 0.133\,\% @ 15 kHz \\
+    \midrule
+    总谐波失真度 (THD) & 0.6552\,\% @ 100 kHz & 0.6713\,\% @ 1MHz & 0.7067\,\% @ 10 MHz & 0.8434\,\% @ 100 MHz \\
+    \bottomrule
+\end{tabular}}
+\end{table}
+
+
+
+
+\subsection*{4.2 \ \ 30 欧姆与 3.75 欧姆负载，哪个效率高，为什么？}
+
+负载 30 $\Omega$ 时效率更高，因为此时输出摆幅更大且总输入/输出电流更低。无论是理论近似效率 $\eta  = \frac{\pi V_{out,amp}}{4 V_{CC}}$ 还是实际测得的数据 $\eta_{R_L = 30 \Omega} = 39.32\,\%$, $\eta_{R_L = 3.75 \Omega} = 64.88\,\%$，都说明了负载 30 $\Omega$ 时效率更高。
+
+\subsection*{4.3 \ \ 输出阻抗测量精度较低，如何提高？}
+
+一方面，可以选用阻值更小的负载电阻进行测量，使“分压”现象变得更明显，降低随机误差；另一方面，可以用更精确的测量方式（例如开尔文接线法）消除接触阻抗，降低系统误差。
+
+\subsection*{4.4 \ \ 对本实验及课程有何建议？实验中是否遇到异常现象？}
+
+还是之前提到过的建议：选做实验应给出更详细的内容讲解，以便同学们参考。像这次实验，当我想开始第一个选做实验“D 类功放 TDA8920 测试”时，实在是拔尖四顾心茫然。一方面，课件上并没有给出此电路的原理图或输入输出接口；另一方面，课件上对选择实验的内容描述也不够详细，比如“测量参数”是指什么呢？是功放在某种输入下的功耗、效率，还是其占空比与输入信号的关系，又或一些其它参数？实在是有些摸不着头脑。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+% 附录 A
+\newpage
+\vspace*{\fill}\begin{center}\Huge{\bfseries 
+    附录 A\hspace*{20pt} 预习报告
+}\end{center}\addcontentsline{toc}{section}{附录 A\hspace*{6pt} 预习报告} 
+\begin{figure}[H]\centering
+    \includegraphics[width=\columnwidth]{LCE-03-功率放大器/assets/附录/预习报告.png}
+\end{figure}
+\vspace*{\fill}
+\thispagestyle{fancy} 
+\includepdf[pages={-}]{LCE-03-功率放大器/preview/LCE-03 (preview report).pdf}
+
+% 附录 B
+\newpage
+\begin{center}\Huge{\bfseries 
+    附录 B\hspace*{20pt} 原始数据记录表
+}\end{center}
+\addcontentsline{toc}{section}{附录 B\hspace*{6pt} 原始数据记录表} 
+\thispagestyle{fancy} 
+\begin{figure}[H]\centering
+    \includegraphics[width=0.9\columnwidth]{LCE-03-功率放大器/assets/附录/原始数据.png}
+\end{figure}
+
+% 附录
+\newpage
+\section*{附录 C \hspace*{20pt} Matlab Codes}
+\addcontentsline{toc}{section}{附录 C \hspace*{6pt} Matlab Codes} 
+\thispagestyle{fancy} 
+\lstinputlisting{d:/a_RemoteRepo/GH.MatlabCodes/本科课程代码/Linear Circuit Experiment/LCE_03.m}
+
+
+
+\end{document}
+
+% VScode 常用快捷键：
+
+% F2:                       变量重命名
+% Ctrl + Enter:             行中换行
+% Alt + up/down:            上下移行
+% 鼠标中键 + 移动:           快速多光标
+% Shift + Alt + up/down:    上下复制
+% Ctrl + left/right:        左右跳单词
+% Ctrl + Backspace/Delete:  左右删单词    
+% Shift + Delete:           删除此行
+% Ctrl + J:                 打开 VScode 下栏(输出栏)
+% Ctrl + B:                 打开 VScode 左栏(目录栏)
+% Ctrl + `:                 打开 VScode 终端栏
+% Ctrl + 0:                 定位文件
+% Ctrl + Tab:               切换已打开的文件(切标签)
+% Ctrl + Shift + P:         打开全局命令(设置)
+
+% Latex 常用快捷键：
+
+% Ctrl + Alt + J:           由代码定位到PDF
+
+

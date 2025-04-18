@@ -1,0 +1,232 @@
+% 若编译失败，且生成 .synctex(busy) 辅助文件，可能有两个原因：
+% 1. 需要插入的图片不存在：Ctrl + F 搜索 'figure' 将这些代码注释/删除掉即可
+% 2. 路径/文件名含中文或空格：更改路径/文件名即可
+
+% --------------------- 文章宏包及相关设置 --------------------- %
+% >> ------------------ 文章宏包及相关设置 ------------------ << %
+% 设定文章类型与编码格式
+\documentclass[UTF8]{article}		
+\input{../../.config/config_for_LinearCircuitExperiment.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 仅需修改页眉、实验名称、实验日期
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%% 1. 修改页眉内容 %%%%%%%%%%%%%%%%%%
+\rhead{Preview Report of LCE-03 功率放大器 (2025.04.18, 丁毅)}
+
+% 开始编辑文章
+\begin{document}
+\begin{center}\large
+    \vspace*{-0.8cm}
+    \noindent{\huge\bfseries《\ \ 线\ \ 性\ \ 电\ \ 路\ \ 实\ \ 验\ \ \ 》\ \ 预\ \ 习\ \ 报\ \ 告 }
+    \\\vspace{0.1cm}
+    \noindent{
+    {\bfseries 
+%
+%%%%%%%%%%%%%%%%%% 2. 修改实验名称 %%%%%%%%%%%%%%%%%%
+    实验名称：\uline{\hspace{1.8cm} 功率放大器 \hspace{1.8cm}}
+%
+    }\hspace{0.4cm}
+    指导教师：\uline{\hspace{0.8cm}王东雷\ \ \ \  \ df4dac@sina.com     \hspace{0.8cm}}
+    }
+    \\\vspace{0.1cm}
+    \noindent
+    {
+    姓名：\uline{\,\,\,丁毅\,\,\,}\hspace{0.2cm}
+    学号：\uline{\,\,\,{ 2023K8009908031}\,\,\,}\hspace{0.2cm}
+    班级/专业：\uline{\,\,\,{2308/电子信息}\,\,\,}\hspace{0.2cm}
+    分组序号：\uline{\,\,\,{2-06}\,\,\,}
+    }
+    \\\vspace{0.1cm}
+    \noindent{
+%
+%%%%%%%%%%%%%%%%%% 3. 修改实验日期 %%%%%%%%%%%%%%%%%%
+    实验日期：\uline{\,\,{2025.04.18}\,\,}\hspace{0.2cm}
+%
+    实验地点：\uline{\,\,\,教学楼{ 607}\,\,\,}\hspace{0.2cm}
+    是否调课/补课：\uline{\hspace{0.26cm}否 \hspace{0.26cm}}\hspace{0.2cm}
+    成绩：\uline{\hspace{2cm}}
+    }
+\end{center}
+\vspace{-0.4cm}
+\noindent\rule{\textwidth}{0.075em}   % 分割线
+\vspace{-1.0cm}
+
+
+% ------------------------ 文章信息区 ------------------------ %
+% ------------------------ 文章信息区 ------------------------ %
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 下面是正文内容 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{实验目的}
+
+\begin{enumerate}
+\item 对功放及散热片有感性认识，加深对功率放大电路的理解；
+\item 理解功放指标及测量方法；
+\item 初步建立散热和热阻的概念；
+\item 了解电容类别、指标及测试方法；
+\item D 类功放波形及指标测试 (选做)。
+\end{enumerate}
+
+\section{实验仪器}
+
+\section{实验内容及步骤}
+
+\begin{enumerate}
+    \item 安装焊接LM1875电路，暂时不焊接消振元件C3、R4、R5。
+    \item 观察输出是否有振荡，如有则加入 Zobel 网络观察消振效果。
+    \begin{itemize}
+            \item 测试输出时，电源供电采用 ±15V，设为串联 SER 模式。
+            \item 功放先空载测试，电源电流设置为 0.1A，两通道均需设置，开启电源后的电流应在 10 mA  $\sim$ 60 mA 之间；如果电流源进入恒流模式，关闭电路查找原因。
+            \item 一切正常后接入信号源观察波形；测试完后连接负载，设置输入电流为1A，开始测试。
+    \end{itemize}
+    \item 1kHz 下测量输出范围、功率及效率，在 30 $\Omega$ 和 3.75 $\Omega$ 两种负载条件下测试。
+    \item 按照实验二中采用的方法测量输出阻抗。
+    \item 利用扫频法测量频率响应，幅值取最高输出幅值的一半，只测量高频截止频率。
+    \item 接音频信号和扬声器，体会效果。
+    \item D类功放：
+    \begin{itemize}
+        \item 连接电路；
+        \item 测量上述参数；
+        \item 测量频响；
+        \item 测量波形，在信号最高点、零点和最低点处测量芯片半桥输出点波形和占空比，更改电源电压观察占空比变化
+    \end{itemize}
+\end{enumerate}
+
+
+\noindent 下面是数据测试表：
+
+\begin{table}[H]\centering
+    %\renewcommand{\arraystretch}{1.5} % 调整行间距
+    %\setlength{\tabcolsep}{1.5mm} % 调整列间距
+    \caption{功率放大器数据测试表}
+    \label{功率放大器数据测试表}
+\begin{tabular}{cccccccccc}\toprule
+    Load & Output Amp. (V) & Effective Amp. (V) & Output Power (W) & Input Power (W) & Efficiency  \\
+    \midrule
+    30 $\Omega$ &  &   \\
+    3.75 $\Omega$ &  &   \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+\section{同相放大器增益计算}
+
+同相放大器的增益结果如图 \ref{fig: 同相放大器增益计算} 所示；
+\begin{gather}
+\frac{V_{in,eff.}}{V_{in}} = \frac{R_1}{R_1 + \frac{1}{sC_1}},\quad 
+\frac{V_{out}}{V_{in,eff.}} = 1 + \frac{R_2}{R_3 + \frac{1}{sC_2}}
+\\ 
+\Longrightarrow 
+A_v = \frac{V_{out}}{V_{in}} = \frac{R_1}{R_1 + \frac{1}{sC_1}} \cdot \left(1 + \frac{R_2}{R_3 + \frac{1}{sC_2}}\right)
+\end{gather}
+
+\begin{figure}[H]\centering
+    \begin{subfigure}[b]{0.63\columnwidth}\centering
+        \includegraphics[height=150pt]{preview/assets/2025-04-15_16-10-10.pdf}
+        \caption{增益计算结果}
+    \end{subfigure}
+\begin{subfigure}[b]{0.35\columnwidth}\centering
+    \includegraphics[height=140pt]{preview/assets/amp.png}
+    \caption{原理图}
+\end{subfigure}
+\caption{同相放大器增益计算}
+\label{fig: 同相放大器增益计算}
+\end{figure}
+
+\section{注意事项}
+
+\begin{enumerate}
+    \item 功放芯片先机械安装，再焊接，否则无法紧密接触散热片；先安装弹性垫片，再安装平垫片；功率原件散热面紧贴散热片，不能有空隙，必要时涂导热硅脂
+    \item 3 针接插件应该先组装再焊接；开口朝外，用于接线
+    \item 功放 IC 一定要先机械安装再焊接，否则接触不良导致 IC 热关断或拉断引脚 (现象，工作一段时间，输出消失或畸变)
+    \item 效率测量出现 $\eta>1$，说明只测量了正电源功率，本实验为双组电源；如果效率测量 $\eta < 0.1$，幅值小，应该在最大幅值条件下测量
+    \item 直接测量效率 $\frac{P_{out}}{P_{in}}$ ，不要用输出幅值计算效率
+    \item 不要随意用鳄鱼夹，用多股线处理导线端子，避免短路；导线颜色按规定：正电压用红线、负电压用蓝线、地线用白线或黑线，其他线尽量避开这几个颜色
+    \item 线路的 GND 应接电源的串联点，而不是电源的 GND 端子，否则会只输出半波信号。
+\end{enumerate}
+
+
+\includepdf[pages={-}]{preview/assets/lm1875.pdf}
+
+%\section{异常现象分析}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+% VScode 常用快捷键：
+
+% F2:                       变量重命名
+% Ctrl + Enter:             行中换行
+% Alt + up/down:            上下移行
+% 鼠标中键 + 移动:           快速多光标
+% Shift + Alt + up/down:    上下复制
+% Ctrl + left/right:        左右跳单词
+% Ctrl + Backspace/Delete:  左右删单词    
+% Shift + Delete:           删除此行
+% Ctrl + J:                 打开 VScode 下栏(输出栏)
+% Ctrl + B:                 打开 VScode 左栏(目录栏)
+% Ctrl + `:                 打开 VScode 终端栏
+% Ctrl + 0:                 定位文件
+% Ctrl + Tab:               切换已打开的文件(切标签)
+% Ctrl + Shift + P:         打开全局命令(设置)
+
+% Latex 常用快捷键：
+
+% Ctrl + Alt + J:           由代码定位到PDF
+
+
