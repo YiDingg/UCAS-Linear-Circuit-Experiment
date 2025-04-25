@@ -6,3 +6,5 @@ impedances
 GWINSTEK
 mVamp
 Zobel
+transconductance
+MOSFET

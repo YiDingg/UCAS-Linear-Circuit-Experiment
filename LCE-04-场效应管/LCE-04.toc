@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}%
+\contentsline {section}{\numberline {2}实验仪器}{2}{section.2}%
+\contentsline {section}{\numberline {3}实验内容概要}{2}{section.3}%
+\contentsline {section}{\numberline {4}实验内容及实验结果}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}利用万用表简单测量 MOSFET}{2}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}焊接 MOSFET 放大器 PCB 板}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}测量 MOSFET (2N7000) 特性曲线}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}2N7000 (NMOS), 3D, Current Level: High (0 $\sim $ 125 mA)}{4}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}2N7000 (NMOS), Current Level: Low (0 $\sim $ 5 mA)}{5}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}2N7000 (NMOS), Current Level: Medium (0 $\sim $ 25 mA)}{6}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}2N7000 (NMOS), Current Level: High (0 $\sim $ 125 mA)}{7}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Common-Source Amplifier}{8}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}设置静态工作点}{8}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}测量频率响应 (原始增益曲线)}{8}{subsubsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.3}测量输出有负载时的增益}{11}{subsubsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.4}测量输入有分压时的增益}{11}{subsubsection.4.8.4}%
+\contentsline {subsubsection}{\numberline {4.8.5}增益曲线、输出阻抗曲线、输入阻抗曲线计算结果}{13}{subsubsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.9}Common-Drain Amplifier (Source Follower)}{14}{subsection.4.9}%
+\contentsline {subsubsection}{\numberline {4.9.1}设置静态工作点}{14}{subsubsection.4.9.1}%
+\contentsline {subsubsection}{\numberline {4.9.2}测量频率响应 (原始增益曲线)}{14}{subsubsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.3}测量输出有负载时的增益}{17}{subsubsection.4.9.3}%
+\contentsline {subsubsection}{\numberline {4.9.4}测量输入有分压时的增益}{17}{subsubsection.4.9.4}%
+\contentsline {subsubsection}{\numberline {4.9.5}增益曲线、输出阻抗曲线、输入阻抗曲线计算结果}{18}{subsubsection.4.9.5}%
+\contentsline {subsection}{\numberline {4.10}测量 MOSFET 开关特性}{19}{subsection.4.10}%
+\contentsline {section}{\numberline {5}思考题}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}场效应管与双极性晶体管对比，有何优缺点？}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}本次实验的建议}{21}{subsection.5.2}%
+\contentsline {section}{附录 A\hspace *{6pt} 预习报告}{22}{subsection.5.2}%
+\contentsline {section}{附录 B\hspace *{6pt} 原始数据记录表}{29}{figure.caption.48}%
+\contentsline {section}{附录 C \hspace *{6pt} Matlab Codes}{29}{figure.caption.49}%
