@@ -13,24 +13,27 @@ https://github.com/YiDingg/UCAS-LinearCircuitExperiment/blob/af6c47bc8d2376e2acb
 -->
 
 ## LCE-01 二极管
-![alt text](.assets/image.png)
-![img](https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/assets/image-1.png)
+
+<!-- 图片必须要在 ".assets" 文件夹中才可这样访问, "assets" 文件夹不行 -->
+
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image.png>)
 
 ## LCE-02 三极管
-![alt text](.assets/image-1.png)
-![alt text](.assets/image-2.png)
-![alt text](.assets/image-3.png)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-1.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-2.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-3.png>)
 
 
 ## LCE-03 功率放大器
-![alt text](.assets/image-4.png)
-![alt text](.assets/image-5.png)
-![alt text](.assets/image-6.png)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-4.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-5.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-6.png>)
+
 
 ## LCE-04 场效应管
-![alt text](.assets/image-7.png)
-![alt text](.assets/image-12.png)
-![alt text](.assets/image-8.png)
-![alt text](.assets/image-9.png)
-![alt text](.assets/image-10.png)
-![alt text](.assets/image-11.png)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-7.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-12.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-8.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-9.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-10.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image-11.png>)
