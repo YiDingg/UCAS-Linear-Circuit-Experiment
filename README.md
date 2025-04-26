@@ -31,9 +31,9 @@ https://github.com/YiDingg/UCAS-LinearCircuitExperiment/blob/af6c47bc8d2376e2acb
 
 
 ## LCE-04 场效应管
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy.png.png>)
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 2.png.png>)
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 3.png.png>)
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 4.png.png>)
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 5.png.png>)
-![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 6.png.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 2.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 3.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 4.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 5.png>)
+![img](<https://gcore.jsdelivr.net/gh/YiDingg/UCAS-LinearCircuitExperiment/.assets/image copy 6.png>)
