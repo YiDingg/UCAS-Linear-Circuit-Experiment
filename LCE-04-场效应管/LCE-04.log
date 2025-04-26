@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.30)  25 APR 2025 22:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.30)  26 APR 2025 13:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1479,107 +1479,71 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 199.
 
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2N7000.png Graphic file (type bmp)
-<../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2N7000.png>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2N7000.png Graphic file (type bmp)
+<../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2N7000.png>
 [3]
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-11.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-11.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-11.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-11.pdf>
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 (Font)              size <8> substituted on input line 209.
 
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf>
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-58__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-58__stc_Ron_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-02__stc_gm_Id_Vds.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-02__stc_gm_Id_Vds.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-56__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-56__stc_rO_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-00__stc_Id_Vgs_Vds.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-00__stc_Id_Vgs_Vds.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-58__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-58__stc_Ron_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-02__stc_gm_Id_Vds.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-02__stc_gm_Id_Vds.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-56__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-56__stc_rO_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-00__stc_Id_Vgs_Vds.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-00__stc_Id_Vgs_Vds.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf>
 [4] [5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-00-07__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-00-07__stc_Ron_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-29__stc_gm_Id_Vds.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-29__stc_gm_Id_Vds.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-24__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-24__stc_rO_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-28__stc_Id_Vgs_Vds.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-28__stc_Id_Vgs_Vds.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-00-07__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-00-07__stc_Ron_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-29__stc_gm_Id_Vds.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-29__stc_gm_Id_Vds.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-24__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-24__stc_rO_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-28__stc_Id_Vgs_Vds.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-28__stc_Id_Vgs_Vds.pdf>
 
 Overfull \hbox (4.06065pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-31__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-31__stc_gm_IdVgs_yyplot.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-31__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-31__stc_gm_IdVgs_yyplot.pdf>
 
 Overfull \hbox (3.50517pt too wide) in paragraph at lines 278--279
  [][] 
  []
 
 [6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 285.
-
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-28__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-28__stc_Ron_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-33__stc_gm_Id_Vds.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-33__stc_gm_Id_Vds.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-26__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-26__stc_rO_Id_Vgs.pdf>
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-55-13__stc_Id_Vgs_Vds_logscale.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-55-13__stc_Id_Vgs_Vds_logscale.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-28__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-28__stc_Ron_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-33__stc_gm_Id_Vds.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-33__stc_gm_Id_Vds.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-26__stc_rO_Id_Vgs.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-26__stc_rO_Id_Vgs.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-55-13__stc_Id_Vgs_Vds_logscale.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-55-13__stc_Id_Vgs_Vds_logscale.pdf>
 
 Overfull \hbox (10.71875pt too wide) in paragraph at lines 308--309
  [][] 
  []
 
-File: ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-35__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/assets/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-35__stc_gm_IdVgs_yyplot.pdf>
+File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-35__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-35__stc_gm_IdVgs_yyplot.pdf>
 
 Overfull \hbox (8.3778pt too wide) in paragraph at lines 312--313
  [][] 
@@ -1646,17 +1610,17 @@ File: ../LCE-04-场效应管/assets/cd amp/cd gain, R_S = 2M229.pdf Graphic file
 <use ../LCE-04-场效应管/assets/cd amp/cd gain, R_S = 2M229.pdf>
 File: ../LCE-04-场效应管/assets/cd amp/cd Z_in.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/cd amp/cd Z_in.pdf>
+ [18]
 File: ../LCE-04-场效应管/assets/switching circuit/开关 input-output 1kHz.png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/switching circuit/开关 input-output 1kHz.png>
- [18]
 File: ../LCE-04-场效应管/assets/switching circuit/开关 input-output (2) 1kHz.png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/switching circuit/开关 input-output (2) 1kHz.png>
+ [19]
 File: ../LCE-04-场效应管/assets/switching circuit/开关 input-output 100kHz.png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/switching circuit/开关 input-output 100kHz.png>
- [19]
 File: ../LCE-04-场效应管/assets/switching circuit/开关 input-output 100kHz (2).png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/switching circuit/开关 input-output 100kHz (2).png>
- [20] [21]
+ [20] [21] [22]
 File: ../LCE-04-场效应管/assets/appendix/预习报告.png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/appendix/预习报告.png>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
@@ -1667,52 +1631,52 @@ File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (t
 <use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
- [22]
-File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
-File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
-File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
  [23]
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 1>
  [24]
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 2>
  [25]
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 3>
  [26]
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 4>
  [27]
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
 File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
-<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 5>
  [28]
+File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+File: ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf Graphic file (type pdf)
+<use ../LCE-04-场效应管/preview/LCE-04 (preview report).pdf, page 6>
+ [29]
 File: ../LCE-04-场效应管/assets/appendix/原始数据.png Graphic file (type bmp)
 <../LCE-04-场效应管/assets/appendix/原始数据.png>
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 675.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 714.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1736,7 +1700,7 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (d:/a_RemoteRepo/GH.MatlabCodes/本科课程代码/Linear Circuit Experiment/LCE_04_MOSFET.m [29] [30] [31]) [32] (./LCE-04.aux)
+ (d:/a_RemoteRepo/GH.MatlabCodes/本科课程代码/Linear Circuit Experiment/LCE_04_MOSFET.m [30] [31] [32]) [33] (./LCE-04.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1747,15 +1711,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `LCE-04.out' has not changed.
-(rerunfilecheck)             Checksum: 3B9780B51C0A768745DD283CE12006AE;5402.
+(rerunfilecheck)             Checksum: 15F05176AEFDD6439A58C00B19B239F1;5647.
  ) 
 Here is how much of TeX's memory you used:
- 59556 strings out of 475055
- 1468814 string characters out of 5767765
- 2656353 words of memory out of 5000000
- 80492 multiletter control sequences out of 15000+600000
- 577706 words of font info for 188 fonts, out of 8000000 for 9000
+ 59547 strings out of 475055
+ 1470160 string characters out of 5767765
+ 2660353 words of memory out of 5000000
+ 80486 multiletter control sequences out of 15000+600000
+ 574428 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 122i,17n,124p,539b,2362s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,17n,124p,547b,2362s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on LCE-04.pdf (32 pages).
+Output written on LCE-04.pdf (33 pages).

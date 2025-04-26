@@ -8,3 +8,4 @@ mVamp
 Zobel
 transconductance
 MOSFET
+Midband
