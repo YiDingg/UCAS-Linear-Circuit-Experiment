@@ -6,9 +6,9 @@
 \contentsline {subsection}{\numberline {4.2}焊接 MOSFET 放大器 PCB 板}{3}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}测量 MOSFET (2N7000) 特性曲线}{3}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}2N7000 (NMOS), 3D, Current Level: High (0 $\sim $ 125 mA)}{4}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}2N7000 (NMOS), Current Level: Low (0 \~ 5 mA)}{5}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}2N7000 (NMOS), Current Level: Medium (0 \~ 25 mA)}{6}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}2N7000 (NMOS), Current Level: High (0 \~ 125 mA)}{7}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.2}2N7000 (NMOS), Current Level: Low (0 $\sim $ 5 mA)}{5}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}2N7000 (NMOS), Current Level: Medium (0 $\sim $ 25 mA)}{6}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}2N7000 (NMOS), Current Level: High (0 $\sim $ 125 mA)}{7}{subsubsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.4}Common-Source Amplifier}{8}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}设置静态工作点}{8}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}测量频率响应 (原始增益曲线)}{8}{subsubsection.4.4.2}%

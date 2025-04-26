@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.30)  26 APR 2025 13:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.30)  26 APR 2025 13:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1491,6 +1491,18 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] 3D current high/2025-04-24_21-05-16.pdf>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sim' on input line 219.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 219.
+
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-54__stc_Id_Vds_Vgs.pdf>
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-33-58__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
@@ -1504,6 +1516,18 @@ File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current 
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level low (0~5mA)/2025-04-24_00-34-17__stc_gm_IdVgs_yyplot.pdf>
 [4] [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 252.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sim' on input line 252.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 252.
+
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-04-22__stc_Id_Vds_Vgs.pdf>
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level mid (0~25mA)/2025-04-24_00-00-07__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
@@ -1527,6 +1551,18 @@ Overfull \hbox (3.50517pt too wide) in paragraph at lines 278--279
  []
 
 [6]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sim' on input line 285.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 285.
+
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf Graphic file (type pdf)
 <use ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-18__stc_Id_Vds_Vgs.pdf>
 File: ../LCE-04-场效应管/assets/2N7000/2N7000 (NMOS) [onsemi, KH32] current level high/2025-04-24_00-52-28__stc_Ron_Id_Vgs.pdf Graphic file (type pdf)
@@ -1711,13 +1747,13 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `LCE-04.out' has not changed.
-(rerunfilecheck)             Checksum: 15F05176AEFDD6439A58C00B19B239F1;5647.
+(rerunfilecheck)             Checksum: 0EDB79CF19DA1C9B9C76CC745FD86A21;5647.
  ) 
 Here is how much of TeX's memory you used:
- 59547 strings out of 475055
- 1470160 string characters out of 5767765
+ 59541 strings out of 475055
+ 1470118 string characters out of 5767765
  2660353 words of memory out of 5000000
- 80486 multiletter control sequences out of 15000+600000
+ 80480 multiletter control sequences out of 15000+600000
  574428 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,17n,124p,547b,2362s stack positions out of 10000i,1000n,20000p,200000b,200000s
