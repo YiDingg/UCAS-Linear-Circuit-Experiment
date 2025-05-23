@@ -9,3 +9,6 @@ Zobel
 transconductance
 MOSFET
 Midband
+LTspice
+Wien-Bridge
+capacitances

@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}%
+\contentsline {section}{\numberline {2}实验仪器}{2}{section.2}%
+\contentsline {section}{\numberline {3}Design of Op Amps using Discrete Transistors}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Preview of the Self-Designed Op Amps using Discrete Transistors}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}CMOS Op Amp 1 (Common-Source Output Stage) }{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}CMOS Op Amp 2 (Improved Push-Pull Output Stage) }{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}μA741 using Discrete BJTs}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Circuit Schematic and Block Diagram}{6}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Biasing Analysis}{7}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Small-Signal Analysis}{8}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}LTspice Simulation}{8}{subsubsection.3.4.4}%
+\contentsline {section}{\numberline {4}Experimental Verification}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}CMOS Op Amp 1}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}CMOS Op Amp 2}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}μA741 using Discrete BJTs}{13}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Zero Input Test}{13}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Unit Buffer}{13}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Inverting Amplifier}{15}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Integrating Circuit}{16}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}Square Wave Generator}{17}{subsubsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.6}Wien-Bridge Oscillator}{17}{subsubsection.4.3.6}%
+\contentsline {subsubsection}{\numberline {4.3.7}Op Amp Measurement of the Discrete μA741}{18}{subsubsection.4.3.7}%
+\contentsline {section}{\numberline {5}思考题}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}异常现象分析}{19}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}自主设计的分立运放，指标与通用运放 741 相比有无优点，为什么？}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}运放的型号极为丰富，现实工作时是否会有自行设计运放的需求？}{20}{subsection.5.3}%
+\contentsline {section}{附录 A\hspace *{6pt} 原始数据记录表}{21}{subsection.5.3}%
+\contentsline {section}{附录 B \hspace *{6pt} Matlab Codes}{21}{Item.17}%
+\contentsline {section}{附录 C\hspace *{6pt} 实验预习报告}{25}{lstnumber.-1.212}%
